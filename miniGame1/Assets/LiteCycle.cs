@@ -7,7 +7,7 @@ using UnityEngine;
 public class LiteCycle : MonoBehaviour
 {
     //Awake() 게임 오브젝트 생성시, 최초 실행,한 번만 실행
-    void Awake() 
+    void Awake()
     {
         Debug.Log("플레이어 데이터 준비완료");
     }
@@ -25,16 +25,16 @@ public class LiteCycle : MonoBehaviour
     }
     //Awake(),Start() 초기화 영역
 
-    
+
 
     //FixedUpdate() 물리 연산 업데이트- 1초에 여러번 작동(cpu 많이 사용)-보통50회
-    void FixedUpdate() 
+    void FixedUpdate()
     {
         Debug.Log("FixedUpdate");
     }
 
     //Update() 게임 로직 업데이트 - 실행자 환경에따라 실행주기 변화
-    void Update() 
+    void Update()
     {
         Debug.Log("Update");
     }
@@ -53,7 +53,7 @@ public class LiteCycle : MonoBehaviour
     }
 
     //OnDestroy-오브젝트 삭제시 작동
-    void OnDestroy() 
+    void OnDestroy()
     {
         Debug.Log("OnDestroy");
     }
