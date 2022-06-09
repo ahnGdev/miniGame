@@ -5,7 +5,7 @@ using UnityEngine;
 
 //유니티 오브젝트 생명주기
 public class LiteCycle : MonoBehaviour
-{
+{   
     //Awake() 게임 오브젝트 생성시, 최초 실행,한 번만 실행
     void Awake()
     {

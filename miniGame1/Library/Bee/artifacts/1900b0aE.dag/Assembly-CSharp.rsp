@@ -352,6 +352,7 @@
 "Assets/LiteCycle.cs"
 "Assets/LiteCycle3.cs"
 "Assets/LiteCycle4.cs"
+"Assets/Rocket.cs"
 -langversion:9.0
 
 /deterministic
