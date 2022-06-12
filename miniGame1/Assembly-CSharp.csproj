@@ -57,8 +57,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\LiteCycle.cs" />
-    <Compile Include="Assets\LiteCycle3.cs" />
     <Compile Include="Assets\LiteCycle4.cs" />
+    <Compile Include="Assets\Rocket.cs" />
+    <Compile Include="Assets\JumpBall.cs" />
+    <Compile Include="Assets\Children.cs" />
+    <Compile Include="Assets\MyCharacter.cs" />
+    <Compile Include="Assets\LiteCycle3.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -349,9 +349,12 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Children.cs"
+"Assets/JumpBall.cs"
 "Assets/LiteCycle.cs"
 "Assets/LiteCycle3.cs"
 "Assets/LiteCycle4.cs"
+"Assets/MyCharacter.cs"
 "Assets/Rocket.cs"
 -langversion:9.0
 

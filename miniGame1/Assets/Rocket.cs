@@ -48,10 +48,10 @@ public class Rocket : MonoBehaviour
         //a에서 b까지의 거리
         //float distance = Vector3.Distance(a, b);
         float distance = Vector3.Distance(startLocation, transform.position);
-        Debug.Log("위치" + distance);
+        //Debug.Log("위치" + distance);
         if (distance > 50)
         {
-            Debug.Log("위치변경!!!!"+ startLocation);
+            //Debug.Log("위치변경!!!!"+ startLocation);
             transform.position = startLocation;
         }
         
