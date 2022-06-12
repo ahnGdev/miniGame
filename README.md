@@ -36,3 +36,44 @@ B6
 Vector3를 이용한 목표 지점으로 객체 이동
 
 //미니게임 헬모드- 로켓 고리로 회전
+
+6_12
+B8 Time.deltaTime
+Time.deltaTime  - 프레임에 따른 시간차 해소
+
+B9 실제와 같은 물체 만들기-Mesh, Material, Collider, RigidBody
+//점프볼구현
+Component 
+-RigidBody :  물리효과 적용
+--Mass : 무게
+--Is kinematic : 충돌하더라도 움직임 변화x - 함정에 유용
+
+-Collider : 충돌 기준
+
+물리 재질
+-Physics Material : 탄성과 마찰을 다루는 물리적인 재질
+--Bounce Combine : average -> 1튀김 절반높이 ->2튀김 절반의절반 높이
+-Friction : 마찰력,낮을수록 많이 미끄러짐
+//컴포넌트는 어떻게 합쳐서 다른객체에 적용할 수 없을까?
+//부모 오브젝트 관련 확인필요
+//빈오브젝트에 컴포넌트작성후 하위로 객체를 넣어줌
+
+
+B10 힘을 이용하여 물체 움직여보기
+start 블록
+{
+Rigidbody.velocity = Vector3.right; //오른쪽으로 속력
+Rigidbody.velocity = new Vector3(x=2,y=3.z=1); //벡터방향 최초 힘작용
+//힘으로밀기
+rigid.AddForce(Vector3.up*5,ForceMode.Impulse); //캐릭 점프 구현//ForceMode-힘의형식(가속,무게 등)
+}
+//뒤에서 쫒아오는 공(함정) 구현
+
+update블록
+{
+Rigidbody.velocity = new Vector3(x=2,y=3.z=1); //벡터방향 힘 지속적으로 작용
+}
+
+//회전력
+rigid.AddTorque(Vec) : Vec방향을 축으로 회전력이 생김
+
