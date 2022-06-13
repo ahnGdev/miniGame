@@ -77,3 +77,12 @@ Rigidbody.velocity = new Vector3(x=2,y=3.z=1); //벡터방향 힘 지속적으�
 //회전력
 rigid.AddTorque(Vec) : Vec방향을 축으로 회전력이 생김
 
+6_13
+B11 물리충돌
+MeshRenderer-재질접근
+OnCollisionEnter-물리충돌시작 //피해시 빨강
+OnCollisionStay-물리충돌중
+OnCollisionExit-물리충돌끝 //원래색
+
+트리거 - OnTriggerStay 
+
